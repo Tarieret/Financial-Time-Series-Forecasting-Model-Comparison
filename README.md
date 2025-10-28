@@ -1,4 +1,4 @@
-# Financial-Time-Series-Forecasting-Model-Comparison
+# Financial-Time-Series-Forecasting:-NVIDIA-Case-Study
 
 **ARIMA Baseline: Failure Analysis of NVDA Stock**
 
