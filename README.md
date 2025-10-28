@@ -2,19 +2,21 @@
 
 **ARIMA Baseline: Failure Analysis of NVDA Stock**
 
-This project provides a rigorous case study on the limitations of classical statistical models when applied to highly volatile, high-growth financial assets like NVIDIA (NVDA) stock.The work demonstrates the critical ML engineering skill of failure diagnosis, which is necessary for moving from theoretical models to robust financial prediction systems.
+This project analyzes the limitations of **classical time series models (ARIMA) ** when applied to high-volatility financial assets (NVIDIA). It demonstrates the critical ML engineering skill of failure diagnosis.
 
-**Summary**
-Objective: Establish a time series forecasting baseline for NVDA using the classical ARIMA model and MACD technical indicator.
-Key Finding: The ARIMA model exhibited a significant failure to capture the stock's movement, with the forecast diverging immediately from the actual trend.
+Key Takeaways (Part 1):
 
-Analytical Insight: Root cause analysis confirmed the model's breakdown was due to exogenous market shocks—specifically, the non-linear, unpredictable price acceleration driven by the Generative AI boom and record-breaking earnings reports. These events invalidate the linear, stationary assumptions of the ARIMA model.
+Model Failure: The ARIMA model was unable to accurately forecast NVDA stock, with the forecast immediately diverging from the actual trend (metrics: MAE of **6.76** / RMSE of **8.31**).
 
-**Conclusion:** This project proves the inadequacy of classical time series models for modern, event-driven, high-volatility financial data, necessitating a shift to more complex, non-linear Machine Learning solutions (planned for future work).
+Root Cause: The breakdown was attributed to exogenous market shocks (e.g., AI boom, record earnings) that violate the linear, stationary assumptions of the ARIMA model.
 
-
+Conclusion: Proves the inadequacy of classical models for modern, event-driven financial data, necessitating a shift to complex ML solutions.
 
 
+Skills:
 
-**Future Enhancements (Planned Part 2)**
-**Future work will involve implementing a sophisticated ML model (e.g., ARIMAX or LSTM) to overcome the limitations identified in this baseline analysis.**
+Python, ARIMA Modeling, MACD, MAE/RMSE, Root Cause Analysis.
+
+
+**Future Plans (Part 2)**
+**Future work will implement a sophisticated ML model (e.g., ARIMAX or LSTM) to overcome the non-linearity challenges identified in this baseline analysis.**
