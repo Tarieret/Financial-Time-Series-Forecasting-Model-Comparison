@@ -14,4 +14,4 @@ Proves the inadequacy of classical models for modern, event-driven financial dat
 
 
 **Future Plans (Part 2)**
-**Future work will implement a sophisticated ML model (e.g., ARIMAX or LSTM) to overcome the non-linearity challenges identified in this baseline analysis.**
+**Future work will implement a sophisticated ML model (LSTM) to overcome the non-linearity challenges identified in this baseline analysis.**
