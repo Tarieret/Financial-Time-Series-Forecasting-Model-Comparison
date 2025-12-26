@@ -2,7 +2,7 @@
 
 **ARIMA Baseline: Failure Analysis of NVDA Stock**
 
-This project analyzes the limitations of **classical time series models (ARIMA) ** when applied to high-volatility financial assets (NVIDIA). It demonstrates the critical ML engineering skill of failure diagnosis.
+This project analyzes the limitations of **classical time series models (ARIMA)** when applied to high-volatility financial assets (NVIDIA). It demonstrates the critical ML engineering skill of failure diagnosis.
 
 **Key Takeaways (Part 1):**
 
