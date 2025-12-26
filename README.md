@@ -13,5 +13,8 @@ Proves the inadequacy of classical models for modern, event-driven financial dat
 
 
 
-**Future Plans (Part 2)**
-**Future work will implement a sophisticated ML model (LSTM) to overcome the non-linearity challenges identified in this baseline analysis.**
+**Key Takeaways (Part 2)**
+To address the limitations identified in the ARIMA baseline, a Long Short-Term Memory (LSTM) neural network was implemented and evaluated on the same NVDA trading window.
+- The LSTM model achieved substantially lower forecasting error than the ARIMA baseline (MAE = 2.56, RMSE = 3.11), demonstrating improved robustness to nonlinear and event-driven market behavior.
+- While the model’s predictions were smoother and exhibited regression-to-the-mean behavior, it provided significantly better error control than the classical approach.
+- These results confirm that recurrent neural networks offer a more suitable modeling framework than linear time-series models for high-volatility equities, with further gains expected through richer feature engineering and hybrid architectures.
