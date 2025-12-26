@@ -14,6 +14,11 @@ Proves the inadequacy of classical models for modern, event-driven financial dat
 
 
 **Key Takeaways (Part 2)**
+
+**LSTM Model: Nonlinear Time-Series Forecasting of NVDA Stock**
+
+This project applies a Long Short-Term Memory (LSTM) neural network to model NVIDIA’s stock price dynamics under high volatility and regime shifts. It demonstrates the use of deep learning to capture nonlinear temporal dependencies that classical time-series models fail to represent, resulting in improved error control on event-driven financial data.
+
 To address the limitations identified in the ARIMA baseline, a Long Short-Term Memory (LSTM) neural network was implemented and evaluated on the same NVDA trading window.
 - The LSTM model achieved substantially lower forecasting error than the ARIMA baseline (MAE = 2.56, RMSE = 3.11), demonstrating improved robustness to nonlinear and event-driven market behavior.
 - While the model’s predictions were smoother and exhibited regression-to-the-mean behavior, it provided significantly better error control than the classical approach.
